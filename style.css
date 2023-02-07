@@ -1,0 +1,124 @@
+body{
+    margin:0%;
+    margin-top:-10px;
+}
+.topmost{
+    text-decoration:underline;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(188, 19, 19), rgb(6, 125, 6) 30% , rgb(148, 148, 10) );
+    width:100%;
+    text-decoration-thickness:2px;
+}
+.list{
+    background-color: blueviolet;
+    border:3px solid orangered;
+    border-radius: 11px;
+    margin:0px 300px 0px 300px;
+}
+ul{
+    margin:0px;
+    padding-left:350px;
+}
+.container{
+    border:1px solid orangered;
+    border-radius: 20px;
+    display:flex;
+    height:120px;
+    flex-wrap: wrap;
+    margin:0px;
+    justify-content: space-evenly;
+    background-color: skyblue;
+}
+.box{
+    border:2px solid rgb(5, 147, 5);
+    border-radius:5px;
+    width:444px;
+    height:55px;
+    background-color: greenyellow;
+    padding:0px 5px 0px 5px;
+    text-align: center;
+}
+.middleline{
+    background-image:linear-gradient(to right, red, rgb(250, 166, 10), red); 
+    height:30px; 
+    text-align:center;
+    text-decoration:underline rgb(188, 19, 19);
+    text-decoration-thickness:2px;  
+}
+.mainbox{
+    border:4px solid green;
+    background-image: radial-gradient(skyblue 50%, rgb(16, 241, 16));
+    height:250px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.boxx{
+    border:2px solid red;
+    height:100px;
+    width:190px;
+    color: rgb(107, 10, 10);
+    text-decoration: underline;
+    background-color: khaki;
+    border-radius: 10px;
+    text-align:center;
+    line-height: 30px;
+}
+h4{
+    margin:0px;
+}
+.grid{
+    border:1px solid gray;
+    display:grid;
+    color:white;
+    gap:10px;
+    margin-bottom: 21px;
+    grid-template-columns:auto auto auto auto auto auto auto;
+}
+.box1{
+    background-color: brown;
+    grid-column-end: span 7;
+    height:40px;
+    font-size: 21px;
+    text-align: center;
+}
+.box2{
+    background-color: rgb(152, 152, 89);
+    grid-column-end: span 2;
+    text-align:center;
+    font-size: 24px;
+    height:80px;
+}
+.box3{font-size: 25px;
+    background-color: blue;
+    grid-column-end: span 2;
+    font-size: 24px;
+    height:80px;
+}
+.box4{
+    background-color: orange;
+    grid-column-end: span 2;
+    font-size: 24px;
+    height:80px;
+}
+.box5{
+    background-color:rgb(18, 17, 19);
+    grid-row-end:span 2;
+}
+.box6{
+    background-color: orchid;
+    grid-column-end: span 6;
+    font-size: 21px;
+    height:120px;
+}
+.box7{
+    background-color: skyblue;
+    grid-column-end: span 7;
+    color: black;
+    text-align: center;
+    font-size: 21px;
+}
+hr{
+    margin:0px;
+}
